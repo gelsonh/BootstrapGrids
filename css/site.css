@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* nav to top & footer bottom */
+main {
+  flex-grow: 1;
+}
+
+/* footer stick */
+footer {
+  flex-shrink: 0;
+}
+
+.bg-image {
+  background-image: url(/img/GridBG.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-image main {
+  backdrop-filter: brightness(0.6);
+}
+
+.titleText {
+  font-family: "Londrina Shadow", sans-serif;
+  text-transform: uppercase;
+  color: rgb(195, 255, 0);
+  font-weight: 400;
+}
+
+.minHeight {
+  min-height: 85vh;
+}
