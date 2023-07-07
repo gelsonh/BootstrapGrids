@@ -76,7 +76,36 @@
       </nav>
     </header>
     <!-- content of the page -->
-    <main></main>
+    <main class="container py-3">
+      <ul class="nav nav-pills mb-1">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="grid3.html"
+            >Grid Three</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="grid3b.html"
+            >Grid Three B</a
+          >
+        </li>
+      </ul>
+
+      <div class="row minHeight text-light g-3">
+        <div class="col-7 p-2">
+          <article class="bg-secondary h-100 p-3">Col Left</article>
+        </div>
+        <div class="col-5 pt-2">
+          <div class="row row-cols-1 h-100 g-2">
+            <div class="col">
+              <article class="bg-secondary h-100 p-3">Col Right</article>
+            </div>
+            <div class="col">
+              <article class="bg-dark h-100 p-3">Col Right Botom</article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <!-- footer which appears on each page -->
     <footer class="bg-dark mt-5 text-secondary text-center py-3">
